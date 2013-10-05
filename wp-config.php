@@ -57,6 +57,8 @@ if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
     $_SERVER['HTTPS'] = 'on';
 
 define('FS_METHOD','direct');
+define('WP_HOME','http://ec2-54-200-63-145.us-west-2.compute.amazonaws.com/wordpress');
+define('WP_SITEURL','http://ec2-54-200-63-145.us-west-2.compute.amazonaws.com/wordpress');
 
 require_once(ABSPATH . 'wp-settings.php');
 ?>

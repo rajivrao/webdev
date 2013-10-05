@@ -61,7 +61,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 body {
 	line-height: 1;
-        background-color: #EEE9E9;
+        background-color: #eeeeee;
+        background-image: url(wp-includes/images/an1.jpg) no-repeat top left;        
 }
 ol,
 ul {
@@ -100,7 +101,7 @@ html {
 	overflow-y: scroll;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;        
 }
 a:focus {
 	outline: thin dotted;
@@ -490,7 +491,7 @@ body {
 	font-size: 1rem;
 	font-family: Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
-	color: #444;
+	color: #444;        
 }
 body.custom-font-enabled {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -1758,3 +1759,67 @@ table.foobar {
 margin:0 auto;
 width:200px;
 }
+.panel {
+  position:absolute;
+  clear:none;
+  width:187px;
+  height:195px;
+  margin-top:0px;
+  margin-left:0px;
+  padding:11px;
+  padding-top:63px;
+  padding-bottom:26px;
+  background-position:left bottom;
+  background-repeat:no-repeat;
+  background-color:#faebd7;
+  box-shadow: 2px 2px 2px #888;
+  border: 1 px;
+}  
+
+.pheader {
+  position:absolute;
+  top:3px;
+  left:3px;
+  box-shadow: 1px 1px 1px #888;
+}
+
+.pthumb {
+  position:absolute;
+  display:block;
+  top:55px;
+}
+
+.poverlay {
+  position:absolute;
+  display:block;
+  overflow:hidden;
+  top:210px;
+  right:0;
+  height:35px ;
+  font-size:11px;
+  font-weight:bold;
+  padding:11px;
+  padding-top:10px;
+  padding-left:10px;
+  background-color: #cdc0b0;
+  background-position: 5px 5px;
+  text-decoration: none;
+}
+
+#container {
+  position:relative;
+  width:800px; 
+  height:200px;
+}
+
+#div1, #div2 {
+position: absolute;
+}
+#div1 {
+left: 0px;
+}
+#div2 {
+left: 265px;
+}
+
+.site-content article { border-bottom: none; }

@@ -1,0 +1,74 @@
+******************************************************************************** 
+PACKAGE-LOG: 12:06:23 
+NOTICE: Do not post to public sites or forums 
+******************************************************************************** 
+duplicator: 0.4.6 
+wordpress: 3.5.1 
+php: 5.4.9-4ubuntu2.3 
+php sapi: apache2handler 
+server: Apache/2.2.22 (Ubuntu) 
+browser: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0 
+package name: Annapurna 
+php_max_time: set from=30 to=5000 
+php_max_memory: set from=128M to=5000M 
+mysql wait_timeout:5000 
+recorded table id: 1 
+******************************************************************************** 
+BUILD SQL SCRIPT: 
+******************************************************************************** 
+an_nations (4) 
+an_routes (4) 
+wp_commentmeta (0) 
+wp_comments (1) 
+wp_duplicator (1) 
+wp_links (0) 
+wp_options (175) 
+wp_postmeta (83) 
+wp_posts (125) 
+wp_term_relationships (5) 
+wp_term_taxonomy (2) 
+wp_terms (2) 
+wp_usermeta (21) 
+wp_users (1) 
+SQL CREATED: /usr/share/wordpress/wp-snapshots/524d5dbf04cc48554_Annapurna_database.sql 
+SQL FILE SIZE: 684.55KB 
+SQL RUNTIME: 0.0358 sec. 
+******************************************************************************** 
+BUILD ZIP PACKAGE: 
+******************************************************************************** 
+PACKAGE DIR:  /usr/share/wordpress 
+PACKAGE FILE: /usr/share/wordpress/wp-snapshots/524d5dbf04cc48554_Annapurna_package.zip 
+FILTER EXTENSIONS:  '' 
+FILTER DIRECTORIES: '' 
+---------------------------------------- 
+STARTING PACKAGE BUILD 
+ADDED=>SQL: /usr/share/wordpress/wp-snapshots/524d5dbf04cc48554_Annapurna_database.sql 
+BUILDING FILE LIST 
+FILE LIST COMPLETE: 0.6662 sec. 
+FILE LIST STATS: Dirs 383 | Files 2542 | Links 0 |  
+
+PACKAGE INFO: ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2926
+    [filename] => /usr/share/wordpress/wp-snapshots/524d5dbf04cc48554_Annapurna_package.zip
+    [comment] => 
+)
+ 
+CREATING PACKAGE 
+CLOSING PACKAGE RESULT: '1' 
+PACKAGE FILE SIZE: 30.19MB 
+PACKAGE RUNTIME: 11.8923 sec. 
+******************************************************************************** 
+BUILD INSTALLER FILE: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Complete [/usr/share/wordpress/wp-snapshots/524d5dbf04cc48554_Annapurna_installer.php] 
+******************************************************************************** 
+FILE SIZE: Zip:30.19MB | SQL:684.55KB | Installer:527.02KB 
+TOTAL PROCESS RUNTIME: 12.0640 sec. 
+DONE PROCESSING => Annapurna 12:06:35 
+******************************************************************************** 
